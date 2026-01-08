@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+	int start,end;
+	scanf("%d%d",&start,&end);
+	int i;
+	for(i=start;i<=end;i++)
+	{
+		if(i%2==0&&i%3==0)
+		{
+			printf("%d\n ",i);
+		}
+		
+	}
+		}	
